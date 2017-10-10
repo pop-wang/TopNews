@@ -1,7 +1,7 @@
-//一个Vue文件
-<template>//负责写dom，必须有一个跟标签成对包含
+<template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <h2>李英楠是小狗</h2>
     <h2>Essential Links</h2>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
@@ -21,34 +21,35 @@
   </div>
 </template>
 
-<script>//负责写js脚本
-export default {
-  name: 'hello',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
+<script>
+  export default {
+    name: 'hello',
+    data () {
+      return {
+        msg: 'Hello  LiyingNan55'
+      }
     }
   }
-}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
-  font-weight: normal;
-}
+  h1, h2 {
+    font-weight: normal;
+  }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
 
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
 
-a {
-  color: #42b983;
-}
+  a {
+    color: #42b983;
+  }
 </style>
+
