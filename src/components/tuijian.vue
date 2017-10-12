@@ -34,7 +34,7 @@
 </template>
 <script>
   import Public from './public'
-  import md5 from 'md5'
+  import md5 from 'js-md5'
 export  default {
   name:'tuijian',
   data:function () {

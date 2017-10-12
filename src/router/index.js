@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
-import Tuijian from '@/components/tuijian'
+// import Hello from '@/components/Hello'
+// import Tuijian from '@/components/tuijian'
 import index from '@/view/index'
 import detail from '@/components/detail'
 import Shipin from '@/components/shipin'
@@ -24,19 +24,20 @@ export default new Router({
       path: '/',
       name: 'index',
       component: index,
-      children:[{
-        path: '/tuijian',
-        name: 'tuijian',
-        component:Tuijian
-      }
-        ,{
-          path: '/',
-          name: 'tuijian',
-          component:Tuijian,
-
-        },
+      children:[
+        // {
+        // path: '/tuijian',
+        // name: 'tuijian',
+        // component:Tuijian
+      // }
+        // ,{
+        //   path: '/',
+        //   name: 'tuijian',
+        //   component:Tuijian,
+        //
+        // },
         {
-          path: '/shipin',
+          path: '/',
           name: 'shipin',
           component:Shipin,
 

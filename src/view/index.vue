@@ -18,9 +18,9 @@
         </div><a class="more_btn" href="javascript:void(0)"><span class="cross">+</span></a>
       </div>
       <div class="top_menu_list">
-        <router-link  to="tuijian" class="btn cur"  exact>推荐</router-link>
+        <!--<router-link  to="tuijian" class="btn cur"  exact>推荐</router-link>-->
         <router-link  to="shipin" class="btn">视频</router-link>
-        <router-link  to="redian"  class="btn">热点</router-link>
+        <router-link  to="redian"  class="btn" exact>热点</router-link>
         <router-link  to="shehui"  class="btn">社会</router-link>
         <router-link   to="yule" class="btn">娱乐</router-link>
         <router-link  to="junshi"  class="btn">军事</router-link>
